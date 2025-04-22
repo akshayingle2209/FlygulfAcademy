@@ -27,9 +27,9 @@ public class Admin {
 	@Column(nullable = false)
 	private String password;
 
-	public Admin() {
-
-	}
+//	public Admin() {
+//
+//	}
 
 	public Admin(String username, String password) {
 		this.username = username;
